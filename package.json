@@ -8,6 +8,8 @@
     "test": "jest",
     "build": "webpack --config './build/webpack.prod.js'",
     "start": "webpack-dev-server --open --config './build/webpack.dev.js'",
+    "dev": "webpack-dev-server --open --config './build/webpack.dev.js'",
+    "serve": "webpack-dev-server --open --config './build/webpack.dev.js'",
     "lint": "eslint --ext .js src/",
     "lint-fix": "eslint --fix --ext .js --ext .jsx --ext .vue src/"
   },
