@@ -5,8 +5,10 @@ const {
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: {
-    app: './src/index.js'
+  entry: process.env.NODE_ENV === 'devlopment' ? {
+    test: './src/test.js'
+  } : {
+    matrix: './src/index.js'
   },
   plugins: [
     new CleanWebpackPlugin(),
