@@ -1,8 +1,8 @@
 {
-  "name": "moz-js-webpack",
+  "name": "{{name}}",
   "version": "0.1.0",
-  "description": "beta",
-  "main": "dist/webpack.bundle.js",
+  "description": "{{ description }}",
+  "main": "dist/app.bundle.js",
   "files": [
     "dist"
   ],
