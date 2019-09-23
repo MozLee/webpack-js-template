@@ -23,7 +23,6 @@ const iptools = function () {
 const config = merge(common, {
   devtool: 'inline-source-map',
   devServer: {
-    stats: 'errors-only',
     host: '0.0.0.0',
     port: PORT,
     hot: true,
